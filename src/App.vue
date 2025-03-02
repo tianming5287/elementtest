@@ -1,19 +1,12 @@
 <script setup>
+import btn from './components/btn.vue'
 </script>
 
 <template>
-<div class="app">
-  <p>nihao</p>
-  <h1>element-plus</h1>
-</div>
+<btn></btn>
 </template>
-<style>
-/* .app{
-  margin:0;
-  display: block;
-} */
-.app{
+<style scoped>
+body{
   background-color: aqua;
-  display: block;
 }
 </style>
