@@ -1,9 +1,9 @@
 <script setup>
-import btn from './components/btn.vue'
+import debounce from './components/debounce.vue'
 </script>
 
 <template>
-<btn></btn>
+<debounce />
 </template>
 <style scoped>
 body{
